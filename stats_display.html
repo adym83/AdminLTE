@@ -15,6 +15,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -100,7 +101,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   <p>Businesses</p>
                 </a>
             </li>
-		
+	
             <li class="nav-item">
                 <a href="conversion_rate_ratio.html" class="nav-link">
                   <p>Conversion Rate / Ratio</p>
@@ -221,97 +222,87 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-
-		<!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-                <p>New Users Today</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-user-plus"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-        <!-- ./col -->
-		
-        <!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>1,000,000</h3>
-
-                <p>Total Users</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-
-        <!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>153.001421</h3>
-
-                <p>BTC Balance</p>
-              </div>
-              <div class="icon">
-                <i class="fab fa-bitcoin"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-
-          <!-- /.col-md-6 -->
-        </div>
-        <!-- /.row -->
-          <!-- Left col -->
-          <section class="col-lg-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
+     <h1 class="m-0 text-dark">Stats Display</h1></br>
+		<div class="row mb-2">
+<script>
+  $(function () {
+  $("input[data-bootstrap-switch]").each(function(){
+      $(this).bootstrapSwitch('state', $(this).prop('checked'));
+	  })  
+	  
+	  </script>
+	  
+	  
+<div class="col-md-8">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">
-                  <i class="fas fa-chart-pie mr-1"></i>
-                  BTC Deposit vs Withdrawal against Balance
-                </h3>
-                <div class="card-tools">
-                  <ul class="nav nav-pills ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#revenue-chart" data-toggle="tab">Weekly</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#sales-chart" data-toggle="tab">Monthly</a>
-                    </li>
-                  </ul>
-                </div>
-              </div><!-- /.card-header -->
+                <h3 class="card-title">Settings</h3>
+              </div>
+              <!-- /.card-header -->
               <div class="card-body">
-                <div class="tab-content p-0">
-                  <!-- Morris chart - Sales -->
-                  <div class="chart tab-pane active" id="revenue-chart"
-                       style="position: relative; height: 400px;">
-                      <canvas id="revenue-chart-canvas" height="300" style="height: 400px;"></canvas>
-                   </div>
-                  <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 400px;">
-                    <canvas id="sales-chart-canvas" height="300" style="height: 400px;"></canvas>
-                  </div>
-                </div>
-              </div><!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-		
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th style="width: 10px">#</th>
+                      <th>Description</th>
+                      <th>Show Stats</th>
+                      <th style="width: 150px">Custom Stats</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1.</td>
+                      <td>Statistics for Total Users </td>
+                      <td>
+<input type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                      </td>
+                      <td><input type="text" id="inputClientCompany" class="form-control" value=""></td>
+                    </tr>
+                    <tr>
+                      <td>2.</td>
+                      <td>Withdrawal - BTC Balance</td>
+                      <td>
+<input type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                      </td>
+                      <td><input type="text" id="inputClientCompany" class="form-control" value=""></td>
+                    </tr>
+                    <tr>
+                      <td>3.</td>
+                      <td>Withdrawal - BTC Total Withdrawn</td>
+                      <td>
+<input type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                      </td>
+                      <td><input type="text" id="inputClientCompany" class="form-control" value=""></td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>Transaction txn page </td>
+                      <td>
+<input type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                      </td>
+                      <td><input type="text" id="inputClientCompany" class="form-control" value=""></td>
+                    </tr>
+					 <tr>
+                      <td>5.</td>
+                      <td>Leadership Board </td>
+                      <td>
+<input type="checkbox" name="my-checkbox" checked data-bootstrap-switch data-off-color="danger" data-on-color="success">
+                      </td>
+                      <td><input type="text" id="inputClientCompany" class="form-control" value=""></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+</div>
+</div>			  
 
+		</div><!-- /.row -->
+<div class="row">
+        <div class="col-8">
+          <input type="submit" value="Save" class="btn btn-success float-right">
+        </div>
+      </div>
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
@@ -339,5 +330,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
+<script src="plugins/bootstrap-switch/js/bootstrap-switch.min.js"></script>
+
 </body>
 </html>

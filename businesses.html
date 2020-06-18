@@ -221,102 +221,148 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        <div class="row mb-2">
-
-		<!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-warning">
-              <div class="inner">
-                <h3>44</h3>
-                <p>New Users Today</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-user-plus"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-        <!-- ./col -->
-		
-        <!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-danger">
-              <div class="inner">
-                <h3>1,000,000</h3>
-
-                <p>Total Users</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-
-        <!-- ./col -->
-          <div class="col-lg-4 col-6">
-            <!-- small box -->
-            <div class="small-box bg-success">
-              <div class="inner">
-                <h3>153.001421</h3>
-
-                <p>BTC Balance</p>
-              </div>
-              <div class="icon">
-                <i class="fab fa-bitcoin"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-
-          <!-- /.col-md-6 -->
-        </div>
-        <!-- /.row -->
-          <!-- Left col -->
-          <section class="col-lg-12 connectedSortable">
-            <!-- Custom tabs (Charts with tabs)-->
+	              <h1 class="m-0 text-dark">Businesses</h1></br>
+		<div class="col-10">
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">
-                  <i class="fas fa-chart-pie mr-1"></i>
-                  BTC Deposit vs Withdrawal against Balance
-                </h3>
-                <div class="card-tools">
-                  <ul class="nav nav-pills ml-auto">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#revenue-chart" data-toggle="tab">Weekly</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#sales-chart" data-toggle="tab">Monthly</a>
-                    </li>
-                  </ul>
-                </div>
-              </div><!-- /.card-header -->
+                <h3 class="card-title">Settings</h3>
+              </div>
+              <!-- /.card-header -->
               <div class="card-body">
-                <div class="tab-content p-0">
-                  <!-- Morris chart - Sales -->
-                  <div class="chart tab-pane active" id="revenue-chart"
-                       style="position: relative; height: 400px;">
-                      <canvas id="revenue-chart-canvas" height="300" style="height: 400px;"></canvas>
-                   </div>
-                  <div class="chart tab-pane" id="sales-chart" style="position: relative; height: 400px;">
-                    <canvas id="sales-chart-canvas" height="300" style="height: 400px;"></canvas>
-                  </div>
-                </div>
-              </div><!-- /.card-body -->
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <th>Business</th>
+                    <th>&#128181;Cash Generate Per Hour</th>
+                    <th>&#128181;Capped&nbsp;(7days)</th>
+                    <th>&#128142;Purchase Diamonds per Unit</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>Restaurant</td>
+                    <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="75">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="12,6000">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="100">
+						</div>
+					</td>
+                  </tr>
+                  <tr>
+                    <td>Supermarket</td>
+                     <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="825">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="138,600">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="1,000">
+						</div>
+					</td>
+                  </tr>
+                  <tr>
+                    <td>Hotel</td>
+                    <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="4,500">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="756,000">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="5,000">
+						</div>
+					</td>
+                  </tr>
+                  <tr>
+                    <td>Casino</td>
+                    <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="76,500">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="12,852,000">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="75,000">
+						</div>
+					</td>
+                  </tr>
+                  <tr>
+                    <td>Science Lab</td>
+                    <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="229,500">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="38,556,000">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="200,000">
+						</div>
+					</td> 
+				</tr>	
+                  <tr>
+                    <td>Space Station</td>
+                    <td>              
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="688,500">
+						</div>
+                    </td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="115,668,000">
+						</div>
+					</td>
+                    <td>
+						<div class="form-group">
+						<input type="text" id="inputClientCompany" class="form-control" value="500,000">
+						</div>
+					</td> 
+				</tr>				
+                  </tfoot>
+                </table>
+              </div>
+              <!-- /.card-body -->
             </div>
+			</div>
             <!-- /.card -->
-		
+<div class="row">
+        <div class="col-10">
+          <input type="submit" value="Save" class="btn btn-success float-right">
+        </div>
+      </div>
 
       </div><!-- /.container-fluid -->
-    </div>
-    <!-- /.content -->
-  </div>
-  <!-- /.content-wrapper -->
+    </div> <!-- /.content-header-->
+</div> <!-- /.content-wrapper -->
 
 
   <!-- Main Footer -->
