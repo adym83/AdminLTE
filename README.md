@@ -25,7 +25,7 @@ There are multiple ways to install AdminLTE.
 
 ### Download:
 
-Download from [GitHub releases](https://github.com/ColorlibHQ/AdminLTE/releases).
+Download from [GitHub releases](https://github.com/adym83/AdminLTE/releases).
 
 ### Using The Command Line:
 
@@ -54,7 +54,7 @@ _**Important Note**: To install it via npm/Yarn, you need at least Node.js 10 or
     Clone to your machine
 
     ```bash
-    git clone https://github.com/ColorlibHQ/AdminLTE.git
+    git clone https://github.com/adym83/AdminLTE.git
     ```
 
 ## Documentation
@@ -93,31 +93,6 @@ To compile the dist files you need Node.js/npm, clone/download the repo then:
 1. `npm install` (install npm deps)
 2. _Optional:_ `npm run dev` (developer mode, autocompile with browsersync support for live demo)
 3. `npm run production` (compile css/js files)
-
-### Contribution Requirements:
-
-- When you contribute, you agree to give a non-exclusive license to AdminLTE.io to use that contribution in any context as we (AdminLTE.io) see appropriate.
-- If you use content provided by another party, it must be appropriately licensed using an [open source](https://opensource.org/licenses) license.
-- Contributions are only accepted through GitHub pull requests.
-- Finally, contributed code must work in all supported browsers (see above for browser support).
-
-## License
-
-AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](https://opensource.org/licenses/MIT).
-AdminLTE.io reserves the right to change the license of future releases.
-
-## Latest Release
-
-- [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest)
-
-## Legacy Releases
-
-- [AdminLTE 2](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v2.4.18)
-- [AdminLTE 1](https://github.com/ColorlibHQ/AdminLTE/releases/tag/1.3.1)
-
-## Changelog
-
-Visit the [releases](https://github.com/ColorlibHQ/AdminLTE/releases) page to view the changelog
 
 ## Image Credits
 
