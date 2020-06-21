@@ -31,23 +31,6 @@ Download from [GitHub releases](https://github.com/adym83/AdminLTE/releases).
 
 _**Important Note**: To install it via npm/Yarn, you need at least Node.js 10 or higher._
 
-- **Via npm**
-
-    ```bash
-    npm install admin-lte@^3.0 --save
-    ```
-
-- **Via Yarn**
-
-    ```bash
-    yarn add admin-lte@^3.0
-    ```
-
-- **Via Composer**
-
-    ```bash
-    composer require "almasaeed2010/adminlte=~3.0"
-    ```
 
 - **Via Git**
 
